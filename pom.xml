@@ -49,6 +49,9 @@
 				<artifactId>git-build-hook-maven-plugin</artifactId>
 				<version>3.3.0</version>
 				<configuration>
+					<installHooks>
+						<pre-commit>hooks/pre-commit</pre-commit>
+					</installHooks>
 					<gitConfig>
 						<!-- The location of the directory you are using to store the Git hooks in your project. -->
 						<core.hooksPath>hooks/</core.hooksPath>
@@ -61,6 +64,7 @@
 						<goals>
 							<!-- Sets git config specified under configuration > gitConfig. -->
 							<goal>configure</goal>
+							<goal>install</goal>
 						</goals>
 					</execution>
 				</executions>
