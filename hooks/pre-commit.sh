@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Checking"
+echo "Checking Project"
