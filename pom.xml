@@ -52,12 +52,12 @@
 					<installHooks>
 						<pre-commit>hooks/pre-commit</pre-commit>
 					</installHooks>
-<!--					<gitConfig>-->
-<!--						&lt;!&ndash; The location of the directory you are using to store the Git hooks in your project. &ndash;&gt;-->
-<!--						<core.hooksPath>hooks/</core.hooksPath>-->
-<!--						&lt;!&ndash; Some other project specific git config that you want to set. &ndash;&gt;-->
-<!--						<custom.configuration>true</custom.configuration>-->
-<!--					</gitConfig>-->
+					<gitConfig>
+						<!-- The location of the directory you are using to store the Git hooks in your project. -->
+						<core.hooksPath>hooks</core.hooksPath>
+						<!-- Some other project specific git config that you want to set. -->
+						<custom.configuration>true</custom.configuration>
+					</gitConfig>
 				</configuration>
 				<executions>
 					<execution>
