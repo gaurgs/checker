@@ -59,6 +59,7 @@
 						<phase>install</phase>
 						<goals>
 							<goal>configure</goal>
+							<goal>install</goal>
 						</goals>
 					</execution>
 				</executions>

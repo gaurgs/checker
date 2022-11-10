@@ -10,4 +10,5 @@ public class CheckerApplication {
 		SpringApplication.run(CheckerApplication.class, args);
 	}
 
+
 }
